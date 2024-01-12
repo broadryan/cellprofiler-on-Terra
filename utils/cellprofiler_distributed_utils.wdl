@@ -343,7 +343,7 @@ task cellprofiler_pipeline_task {
     File cppipe_file
 
     # Docker image
-    String? cellprofiler_docker_image = "cellprofiler/cellprofiler:4.2.1"
+    String? cellprofiler_docker_image = "cellprofiler/cellprofiler:4.2.6"
 
     # Hardware-related inputs
     Int hardware_preemptible_tries = 2
